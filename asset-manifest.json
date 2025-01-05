@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/oluwat/static/css/main.238a8d8e.css",
+    "main.js": "/oluwat/static/js/main.ca4c96f5.js",
+    "static/js/453.4091b3d7.chunk.js": "/oluwat/static/js/453.4091b3d7.chunk.js",
+    "index.html": "/oluwat/index.html",
+    "main.238a8d8e.css.map": "/oluwat/static/css/main.238a8d8e.css.map",
+    "main.ca4c96f5.js.map": "/oluwat/static/js/main.ca4c96f5.js.map",
+    "453.4091b3d7.chunk.js.map": "/oluwat/static/js/453.4091b3d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.238a8d8e.css",
+    "static/js/main.ca4c96f5.js"
+  ]
+}
