@@ -1,0 +1,127 @@
+/* ✅ BASIC SETTINGS */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f3f5fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* ✅ HERO SECTION */
+.hero {
+    background: linear-gradient(135deg, #4b2fff, #8300ff);
+    padding: 110px 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* ✅ SECTIONS */
+.section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.section h2 {
+    text-align: center;
+    color: #4b2fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.alt {
+    background: white;
+    padding: 40px 20px;
+    border-radius: 14px;
+    box-shadow: 0 7px 30px rgba(0,0,0,0.08);
+}
+
+.wide {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+/* ✅ SERVICES GRID */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background: #fafaff;
+    padding: 22px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.07);
+}
+
+/* ✅ PORTFOLIO CARDS */
+.app-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.app-card {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    margin: 12px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+/* ✅ FOOTER */
+footer {
+    background: #4b2fff;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/* ✅ ANIMATIONS */
+.fade-in {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(25px);
+    animation: fadeUp 1.2s forwards ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
